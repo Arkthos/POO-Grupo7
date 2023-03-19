@@ -44,5 +44,14 @@ public class Cliente {
     public String getCorreoElectronico() {
         return correoElectronico;
     }
-    
-}
+
+    @Override
+    public String toString() {
+        return "\tNombre: " + nombre + '\n' +
+                "\tCédula: " + cedula + "\n" +
+                "\tDirección: " + direccion + '\n' +
+                "\tNumero Telefónico: " + numeroTelefonico + '\n' +
+                "\tCorreo Electrónico: " + correoElectronico + '\n';
+    }
+
+     
